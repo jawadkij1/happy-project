@@ -1,0 +1,156 @@
+.container,
+.item,
+#background,
+#banner,
+#new_year_greeting,
+#party_invitation,
+#discount_offer,
+#new_year_photo,
+#holiday_deals,
+#categories,
+#vector_image,
+#midnight_party,
+#about,
+#join_now{
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  border-radius: 16px;
+  flex-shrink: 0;
+  background: linear-gradient(#070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+.item {
+  position: absolute;
+  font-family: "Merriweather", serif;
+}
+
+#background {
+  left: 140px;
+  top: 50px;
+  width: 1320px;
+  height: 600px;
+  background-color: transparent;
+  border-radius: 16px;
+}
+
+#banner {
+  left: 140px;
+  top: 50px;
+  width: 1320px;
+  height: 600px;
+}
+
+#new_year_greeting {
+  left: 670px;
+  top: 227px;
+  font-size: 32px;
+  width: 259px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#party_invitation {
+  text-align: center;
+  left: 484px;
+  top: 260px;
+  font-size: 72px;
+  width: 632px;
+  font-weight: Black;
+  color: white;
+}
+
+#discount_offer {
+  left: 608px;
+  top: 600px;
+  font-size: 88px;
+  width: 383px;
+  font-family: "Inter";
+  font-weight: Bold;
+  color: red;
+}
+
+#new_year_photo {
+  left: 399px;
+  top: 1076px;
+  width: 802.9px;
+  height: 500px;
+}
+
+#holiday_deals {
+  left: 602px;
+  top: 800px;
+  font-size: 24px;
+  width: 397px;
+  font-family: "Inter";
+  font-weight: Medium;
+  color: rgba(255, 0, 0, 1);
+}
+
+#categories {
+  left: 595px;
+  top: 870px;
+  font-size: 48px;
+  width: 410px;
+  font-family: "Inter";
+  font-weight: Bold;
+  color: rgba(7, 2, 17, 1);
+}
+
+#vector_image {
+  left: 140px;
+  top: 1670px;
+  width: 1320px;
+  height: 600px;
+}
+
+#midnight_party {
+  left: 266px;
+  top: 1700px;
+  font-size: 64px;
+  width: 642px;
+  font-family: "Merriweather";
+  font-weight: Black;
+  color: white;
+}
+
+#about {
+  left: 266px;
+  top: 1910px;
+  font-size: 18px;
+  width: 697px;
+  font-family: "Inter";
+  color: #ffffff;
+}
+
+#join_now {
+  left: 260px;
+  top: 2000px;
+  font-family: "Inter";
+  font-size: 20px;
+  width: 103px;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.pinky{
+  position: relative;
+}
+.pinky button {
+  top: 2300px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
